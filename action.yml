@@ -1,0 +1,9 @@
+name: 'yavinenana-invalidate-aws-cloudfront'
+description: 'Invalidate AWS Cloudfront distribution paths'
+author: yavinenana
+branding:
+  icon: 'cloud-lightning'
+  color: 'orange'
+runs:
+  using: 'docker'
+  image: 'docker://yavinenana/invalidate-aws-cloudfront-gha:1.0'
